@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">sourabh.harkawat</value>
-    <value name="createdDate">1773474180553</value>
-    <value name="lastModifiedDate">1773474180553</value>
+    <value name="lastModifiedBy">sourabh.harkawat</value>
+    <value name="lastModifiedDate">1773478809914</value>
     <value name="displayName">floe3</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +69,25 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">AzRepoMultiplyPackage</value>
+          <value name="groupName">AzRepoMultiplyPackage;5.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">AzRepoMultiplyPackage:multiplyFS</value>
+          <value name="serviceName">AzRepoMultiplyPackage:multiplyFS</value>
+          <value name="displayName">multiplyFS</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
