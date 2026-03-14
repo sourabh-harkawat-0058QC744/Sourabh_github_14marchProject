@@ -112,7 +112,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="AzRepoMultiplyPackage" SERVICE="AzRepoMultiplyPackage:multiplyFS">
+<INVOKE NAME="LowerFSPackage" SERVICE="LowerFSPackage:lowerFS">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

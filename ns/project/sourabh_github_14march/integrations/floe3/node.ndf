@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sourabh.harkawat</value>
-    <value name="lastModifiedDate">1773478809914</value>
+    <value name="lastModifiedDate">1773480314701</value>
     <value name="displayName">floe3</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -76,15 +76,15 @@
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">AzRepoMultiplyPackage</value>
-          <value name="groupName">AzRepoMultiplyPackage;5.0</value>
+          <value name="groupDisplayName">LowerFSPackage</value>
+          <value name="groupName">LowerFSPackage;2.0</value>
           <null name="services"/>
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">AzRepoMultiplyPackage:multiplyFS</value>
-          <value name="serviceName">AzRepoMultiplyPackage:multiplyFS</value>
-          <value name="displayName">multiplyFS</value>
+          <value name="description">LowerFSPackage:lowerFS</value>
+          <value name="serviceName">LowerFSPackage:lowerFS</value>
+          <value name="displayName">lowerFS</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
