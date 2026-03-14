@@ -8,10 +8,16 @@ packages:
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
 - name: AzRepoMultiplyPackage
+  version: "5.0"
   gitServerName: srcCtrl_shared_AzRepos_Arti
   gitUrl: https://dev.azure.com/ArtiKhare/AzRepoMultiplyPackage/_git
   gitUsername: ArtiKhare
   gitBranch: main
+- name: LowerFSPackage
+  gitServerName: srcCtrl_github_Sourabh
+  gitUrl: https://github.com/sourabh-harkawat-0058QC744
+  gitUsername: sourabh-harkawat-0058QC744
+  gitBranch: testbranch
 services:
 - serviceName: project.sourabh_github_14march.integrations:floe3
   packages:
@@ -19,7 +25,17 @@ services:
     version: "1.0"
   - name: AzRepoMultiplyPackage
     version: "5.0"
+  - name: LowerFSPackage
+    version: "2.0"
 - serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: AzRepoMultiplyPackage:multiplyFS
+  packages:
+  - name: AzRepoMultiplyPackage
+    version: "5.0"
+- serviceName: pub.math:multiplyInts
   packages:
   - name: WmPublic
     version: 11.1.0.0.2105
