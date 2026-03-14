@@ -7,6 +7,22 @@ packages:
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
+- name: AzRepoMultiplyPackage
+  gitServerName: srcCtrl_shared_AzRepos_Arti
+  gitUrl: https://dev.azure.com/ArtiKhare/AzRepoMultiplyPackage/_git
+  gitUsername: ArtiKhare
+  gitBranch: main
+services:
+- serviceName: project.sourabh_github_14march.integrations:floe3
+  packages:
+  - name: Sourabh_github_14marchProject
+    version: "1.0"
+  - name: AzRepoMultiplyPackage
+    version: "5.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
